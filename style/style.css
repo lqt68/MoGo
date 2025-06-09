@@ -122,6 +122,7 @@ ul, ol, h1, h2, h3, h4, h5, h6, p, body {
     height: 2px;
     background-color: white;
 }
+
 .learn__more-btn {
     background: transparent;
     border: 1px solid white;
@@ -137,3 +138,164 @@ ul, ol, h1, h2, h3, h4, h5, h6, p, body {
     color: #f15f79;
 }
 
+.section {
+	position: relative;
+}
+
+.section__wrap {
+	padding: 60px 0;
+}
+
+.section__wrap h2 {
+	font-family: Pacifico-Regular;
+	font-size: 24px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.section__title {
+	font-family: Montserrat;
+	font-size: 30px;
+	text-align: center;
+}
+
+.red-line {
+    width: 60px;
+    height: 2px;
+    background-color: #f15f79;
+	margin: 40px auto;
+	display: block;
+	text-align: center;
+}
+
+.section__desc {
+	color: gray;
+	font-family: Montserrat;
+	font-size: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+	padding: 0 124px;
+	text-align: center;
+}
+
+.section__cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.card__overlay img {	
+	max-width: 380px;
+	max-height: 250px;
+	width: 100%;
+	height: 100%;
+}
+
+.green__section {
+	background-color: #95e1d3;
+	padding: 50px 0;
+}
+
+.green__card {
+	display: inline-block;
+	width: 19%;
+	text-align: center;
+	vertical-align: top;
+	border-left: 1px solid white;
+	height: 100%;
+}
+
+.green__card:first-child {
+	border-left: none;
+}
+
+.green__card h3 {
+	color: white;
+	font-size: 60px;
+	margin: 0;
+}
+
+.green__card p {
+	color: white;
+	font-size: 14px;
+	margin: 10px 0 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.box__content {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.box__desc h3 {
+	font-family: Montserrat;
+	font-size: 14px;
+	margin-bottom: 8px;
+	font-weight: 500;
+}
+
+.box__desc p{
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 300;
+	color: gray;
+}
+
+.item__box img {
+	width: 35px;
+	height: 35px;
+	padding: 5px 0 0 0;
+}
+
+.item__box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box__desc {
+	padding: 0 20px;
+}
+
+.gray__line {
+	width: 1220px;
+    height: 2px;
+    background-color: rgb(192, 190, 190);
+	margin: 40px auto;
+	display: block;
+	text-align: center;
+}
+
+.background__section-img {
+	position: absolute;
+	object-fit: cover;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	width: 100%;
+	opacity: 0.5;
+	background-color: white;
+}
+
+.pb-0 {
+	padding-bottom: 0 !important;
+}
+
+.devices {
+	max-width: 600px;
+	display: flex;
+	margin: 0 auto;
+	position: relative;
+}
+
+.phone {
+	position: absolute;
+	z-index: 2;
+	right: 0;
+	bottom: -50px;
+}
