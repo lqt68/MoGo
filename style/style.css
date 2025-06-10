@@ -355,3 +355,13 @@ ul, ol, h1, h2, h3, h4, h5, h6, p, body {
     color: #999;
     margin-top: 0;
 }
+
+.example {
+	display: flex;
+	flex-direction: row;
+}
+
+.example__box img {
+	display: flex;
+	flex-direction: column;
+}
