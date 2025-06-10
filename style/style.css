@@ -713,3 +713,18 @@ ul, ol, h1, h2, h3, h4, h5, h6, p, body {
 .slide__author .red-line {
 	margin: 0;
 }
+
+.slide__desc-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.slide__desc-2 p {
+	margin-bottom: 24px;
+	font-family: Montserrat;
+	font-style: italic;
+	color: gray;
+	font-size: 24px;
+}
