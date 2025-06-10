@@ -54,6 +54,11 @@ ul, ol, h1, h2, h3, h4, h5, h6, p, body {
 	display: flex;
 	justify-content: space-between;
 	align-items: row;
+	transition: 0.3s all;
+}
+
+.header__menu-link:hover {
+	color: #eed78a;
 }
 
 .intro__slide {
@@ -127,11 +132,65 @@ ul, ol, h1, h2, h3, h4, h5, h6, p, body {
     font-family: Montserrat;
     cursor: pointer;
     transition: all 0.3s;
+	margin-bottom: 100px;
 }
 
 .learn__more-btn:hover {
     background-color: white;
     color: #f15f79;
+}
+
+.slider__pagination {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.slider__pagination-item {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	flex: auto;
+	opacity: 0.7;
+	gap: 16px;
+}
+
+.slider__pagination-item.active {
+	opacity: 1;
+}
+
+.slider__pagination-desc {
+	display: flex;
+	color: #fff;
+	gap: 8px;
+	align-items: baseline;
+}
+
+.pagination__line {
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	position: relative;
+}
+
+
+.pagination__line--fill {
+	height: 2px;
+	width: 25%;
+	background-color: #f15f79;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.slider__pagination-num {
+	font-size: 24px;
+	font-family: Montserrat;
+}
+
+.slider__pagination-title {
+	font-size: 14px;
+	font-family: Montserrat;
 }
 
 .section {
