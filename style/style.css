@@ -348,8 +348,8 @@ ul, ol, h1, h2, h3, h4, h5, h6, p, body {
     color: #333;
 }
 
-.team__member p {
-    font-family: 'Roboto', sans-serif;
+.team__member, .clients p {
+    font-family: Roboto;
     font-size: 15px;
     font-style: italic;
     color: #999;
@@ -364,4 +364,19 @@ ul, ol, h1, h2, h3, h4, h5, h6, p, body {
 .example__box img {
 	display: flex;
 	flex-direction: column;
+}
+
+.clients__content-box {
+	display: flex;
+	flex-direction: row;
+}
+
+.clients__desc {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.clients__desc h3 {
+	font-size: 14px;
 }
